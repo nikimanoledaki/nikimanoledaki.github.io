@@ -21,10 +21,6 @@
 title: Niki Manoledaki
 email: niki.manoledaki@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Niki Manoledaki is a full-stack software engineer based in London. 
-  She codes in Golang, Ruby, JavaScript, and Python, and uses an array of frontend and backend technologies. 
-  Niki has experience as a freelance web developer. She also co-founded Boxwise, a warehouse management application for NGOs that distribute donations.
-  She graduated from Makers Academy and King's College London. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NikiMnldk
