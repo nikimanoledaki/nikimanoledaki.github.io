@@ -1,4 +1,4 @@
-## Niki Manoledaki's website
+## Niki Manoledaki's website
 
 ## Quick Installation
 1. [Fork this repository](https://github.com/abhinavs/moonwalk/fork).
