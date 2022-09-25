@@ -3,16 +3,17 @@ layout: post
 author: Niki Manoledaki
 ---
 
-# How to query the Prometheus HTTP API to get energy metrics about Flux Controllers
+Use Flux to deploy Kepler and Prometheus to any Kubernetes cluster(s) and measure the energy consumption of any Kubernetes Pod or Node. 
 
-Flux can be used to deploy Kepler and Prometheus to any Kubernetes cluster(s). The tools' manifests and their sources are added to a Git repository, and its changes are continuously reconciled.
+To deploy Kepler and Prometheus, add their manifests to a Git repository. [Here](https://github.com/nikimanoledaki/gitops-energy-usage/tree/main/clusters) is a demo repository structure for how to do that. 
 
-Create a local kind cluster, bootstrap the cluster with Flux, and then port-forward the `kube-prometheus` Pod, as per [this script](https://github.com/nikimanoledaki/gitops-energy-usage/blob/main/scripts/start-cluster.sh).
+Flux will continuously reoncile and apply the Kepler and Prometheus manifests to your cluster. For example, by simply repeating the `flux bootstrap` command in a new cluster, Flux will sync with the repository and add Kepler and Prometheus to the new cluster.
 
-## Gather Pod-level energy metrics
+To try this, create a local [kind](https://kind.sigs.k8s.io/) cluster (`kind create cluster`), bootstrap the cluster with Flux (`flux bootstrap github --owner=nikimanoledaki --repository=gitops-energy-usage --path=clusters`), wait for the resources to be created, then port-forward the `kube-prometheus` Pod. [This script](https://github.com/nikimanoledaki/gitops-energy-usage/blob/main/scripts/start-cluster.sh) performs all of these steps.
 
-Then, query the `kube-prometheus` HTTP API's `api/v1/query` endpoint with the following `curl` request, where `--data-urlencode` is a Prometheus query in PromQL syntax, then pipe the result to `jq` to transform it into json format: 
+## Gather Pod-level energy metrics
 
+Query the `kube-prometheus` HTTP API's `api/v1/query` endpoint with the following `curl` request:
 ```bash
 curl -G http://localhost:9090/api/v1/query --data-urlencode "query=pod_curr_energy_in_pkg_millijoule{pod_namespace='flux-system'}" | jq
 {
@@ -100,9 +101,11 @@ curl -G http://localhost:9090/api/v1/query --data-urlencode "query=pod_curr_ener
   }
 }
 ```
-The query above measures the energy consumption of Pods in the `flux-system` namespace, where the Flux controllers are deployed.
+In the command above, the flag `--data-urlencode` is used to pass a Prometheus query in PromQL syntax. The result is piped to `jq` to transform it into json format. 
 
-There are four Flux controllers, the controllers for Sources, Helm, Kustomize, and Notification resources.
+The query itself measures the energy consumption of all of the Pods in the `flux-system` namespace, where the Flux controllers are deployed.
+
+There are four Flux controllers. These are the controllers for Sources, Helm, Kustomize, and Notification resources.
 
 The command below returns the **sum** of the energy consumed by the Flux controllers:
 ```bash
@@ -194,12 +197,12 @@ What is a joule (J)? Very simply put, it is a unit of energy.
 
 1 joule equals 1000 millijoules (mJ), where `1 J = 1000 mJ`.
 
-1 joule per second equals to 1 Watt, denoted like this: `1W = 1 J/s`
+1 joule _per second_ equals to 1 Watt, so `1W = 1 J/s`.
 
-Therefore, `1 W/h = 3600 J = 3600000 mJ`, which is the same as `(60 sec x 60 min) x 1000`, where the multiplication by 1000 converts J to mJ.
+Therefore, `1 W/h = 3600 J = 3600000 mJ`, which is the same as `(60 sec x 60 min) x 1000`, where the multiplication by 1000 converts joules to millijoules.
 
 
 
 ## Relevant docs / further reading:
-- https://prometheus.io/docs/prometheus/latest/querying/api/#expression-queries
-- https://github.com/sustainable-computing-io/kepler/blob/main/grafana-dashboards/Kepler-Exporter.json
+- [Prometheus Docs: PromQL Expression Queries](https://prometheus.io/docs/prometheus/latest/querying/api/#expression-queries)
+- [Example PromQL queries used to display Kepler on Grafana](https://github.com/sustainable-computing-io/kepler/blob/main/grafana-dashboards/Kepler-Exporter.json)

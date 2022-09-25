@@ -68,7 +68,7 @@ html {
     --bg-secondary: #f8f8f8;
     --headings: #000;
     --text: #333;
-    --links: blue;
+    --links: #6b87f7;
     --highlight: #FFECB2; // light yellow
     --code-text: #9D174D;
     --share-text: #999;
@@ -76,13 +76,13 @@ html {
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   html, body  {
-      --headings: #74c0fc;
-      --links: #91A7FF;
+      --headings: #A6ACCD;
+      --links: #89DDFF;
       --highlight: #41C7C7;
-      --bg: #1f242A;
+      --bg: #292D3E;
       --bg-secondary: #323945;
       --text: #adb5bd;
-      --code-text: #91A7FF;
+      --code-text: #f07178;
       --share-text: #C4C4C4;
   };
 }
@@ -99,6 +99,10 @@ html, body {
 }
 h1, h2, h3, h4, h5, h6 {
     color: var(--headings);
+}
+footer {
+    margin-top: auto;
+    bottom: 0;
 }
 p, strong, b, em, small, li, hr, table, figcaption {
     color: var(--text);
