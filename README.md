@@ -78,13 +78,11 @@ html {
 
 To set up your environment to develop this theme, run `bundle install`.
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`.
 
 When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `moonwalk.gemspec` accordingly.
 
 ## Acknowledgement
-This theme's original base is [no style please!](https://github.com/riggraz/no-style-please) theme created by  [Riccardo Graziosi](https://riggraz.dev/) - many thanks to him for creating a wonderful theme with nearly no css. 
+This theme's original base is [no style please!](https://github.com/riggraz/no-style-please) theme created by [Riccardo Graziosi](https://riggraz.dev/) - many thanks to him for creating a wonderful theme with nearly no css. 
 
-✨⚡read more about the developer behind this website's style, Abhinav Saxena, on their [blog](https://www.abhinav.co/about/) or follow me on Twitter - [@abhinav](https://twitter.com/abhinav)
-
+Read more about the developer behind this website's style, Abhinav Saxena, on their [blog](https://www.abhinav.co/about/) or follow on Twitter, [@abhinav](https://twitter.com/abhinav).
