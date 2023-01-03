@@ -99,6 +99,13 @@ html, body {
 }
 h1, h2, h3, h4, h5, h6 {
     color: var(--headings);
+    margin-bottom: 0.2;
+}
+h1 {
+    line-height: 2;
+}
+h2, h3, h4, h5, h6 {
+    line-height: 1.2;
 }
 footer {
     margin-top: auto;
@@ -113,6 +120,12 @@ p, strong, b, em, small, li, hr, table, figcaption {
 blockquote {
   background-color: var(--bg-secondary);
   border: 1px var(--border) solid;
+}
+.quote {
+  font-weight: normal;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 3px solid #666666;
 }
 a {
   color: var(--links);

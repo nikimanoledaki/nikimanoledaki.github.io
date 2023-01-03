@@ -1,0 +1,47 @@
+---
+layout: default
+---
+{% if site.theme_config.show_navbar == true %}
+  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+  <div class="dashed"></div>
+{% endif %}
+
+<header>
+  <h1>Speaking</h1>
+</header>
+
+The following is a list of talks and presentations I have given solo or alongside some really great folks!
+
+<h2>⚡Lightning Talk: Green(Ing) CI/CD: A Sustainability Journey with GitOps - GitOpsCon 2022</h2>
+<a href="https://www.youtube.com/watch?v=rgvHbG3U_c4">Watch Now</a>
+<p class="quote">
+Our infrastructure needs are increasingly energy and carbon intensive. CI/CD is one area where we can take steps to measure and reduce our footprint.
+In this talk, we present our investigation into instrumenting CI/CD systems and GitOps tools to achieve this. We share the outcomes and lessons learned from these experiments so far.
+Our journey begins with traditional CI/CD where the two are tightly coupled. Transitioning to GitOps often starts with decoupling the two.
+This is an opportunity to measure the energy consumption of each step and think about environmental impact from the very beginning.
+Energy use can be measured before and after this decoupling, and we can show you how.
+On the next stop in our sustainability journey, we evaluate how GitOps tools and patterns can be used to reduce energy consumption and wasted resources.
+Expressing a system declaratively offers full visibility of the tools running in your clusters. Another promise of GitOps is that it can be used to turn IT off when not needed.
+GitOps can also support tools and policies to measure and optimize energy and carbon usage. Our journey ends with some reflections on methodology, outcomes, and next steps.
+</p>
+
+<h2>Panel Discussion: Moving Towards Environmentally Sustainable Operations with Cloud Native Tools - Telco Day 2022</h2>
+<p><b>With Chris Lavery, Weaveworks; Marlow Weston, Intel; William Caban, Red Hat.</p></b>
+<a href="https://www.youtube.com/watch?v=2_Sx9ElD3o8">Watch Now</a>
+<p class="quote">
+Power consumption is a large percentage of telco operation costs. We are taking steps to use fewer resources for the same or more compute potential. This benefits both local communities and the telcos paying for these resources, as well as achieving goals around carbon credits, net zero, and other organizational targets or climate-related regulations. We represent a broad range of technologists with expertise in CNF, 5G, Edge, mobile networks, and HPC. We regularly spend time reflecting on the community-driven collective efforts, bringing in new technologies and objectives, including energy-aware workload orchestration, power per watt optimization, energy-aware automation, and GitOps. This panel discusses approaches to identify tactical actions for resource efficiency and what tooling is currently in place to reduce resource consumption. We identify gaps to improve both the tooling for measurement and the ways to manage the resources.
+</p>
+
+<h2>Tutorial: How To Write a Reconciler Using K8s Controller-Runtime! - KubeCon + CloudNativeCon NA 2022</h2>
+<p><b>With Scott Rigby, Somtochi Onyekwere & Soulé Ba, Weaveworks; Amine Hilaly, Amazon Web Services.</p></b>
+<a href="https://www.youtube.com/watch?v=Npvz84HpO3o">Watch Now</a>
+<p class="quote">
+Kubernetes controllers are responsible for making the current state of your cluster continue to become closer to your desired state. Have you ever wondered how these built-in controllers work? Or have you ever wanted to write your own controller to manage Custom Resources? In this 90 minute tutorial, we'll walk you through building your own controller using controller runtime, the set of common libraries on which core controllers are built. We'll use Kubebuilder, a framework for building APIs using custom resource definitions (CRDs). We'll also explain lesser-documented best practices and conventions for writing controllers that the community has developed through trial and error learning, through projects such as Flux and Cluster API. Attendees will gain an understanding of what Kubernetes conditions are, how to set and respond to them, and why they matter. We’ll review common pitfalls and additional helper libraries to make writing these easier, more reliable, and enjoyable!
+</p>
+
+{% if site.theme_config.show_footer == true %}
+  <footer>
+    <div class="dashed"></div>
+    {% include horizontal_list.html collection=site.data.home.footer_entries %}
+  </footer>
+{% endif %}

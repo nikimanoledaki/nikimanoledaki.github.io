@@ -5,6 +5,9 @@ navbar_entries:
   - title: about
     url: about
 
+  - title: speaking
+    url: speaking
+
   - title: blog
     url: blog
 
@@ -57,11 +60,17 @@ footer_entries:
   - title: twitter
     url: https://twitter.com/nikimnldk
 
+  - title: mastodon
+    url: https://hachyderm.io/@nikimnldk
+
   - title: github
     url: https://github.com/nikimanoledaki
 
   - title: linkedin
     url: https://uk.linkedin.com/in/niki-manoledaki-9b505111b
+
+  - title: medium
+    url: https://niki-manoledaki.medium.com/
 
 misc_entries:
   - title: this is an example vertical list

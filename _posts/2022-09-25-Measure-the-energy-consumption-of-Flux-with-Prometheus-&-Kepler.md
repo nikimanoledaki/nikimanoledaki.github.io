@@ -3,8 +3,11 @@ layout: post
 author: Niki Manoledaki
 ---
 
-Use Flux to deploy Kepler and Prometheus to any Kubernetes cluster(s) and measure the energy consumption of any Kubernetes Pod or Node. 
+[Kepler](https://github.com/sustainable-computing-io/kepler) can be used with [Prometheus](https://prometheus.io/) to measure the energy consumption of any Kubernetes Pod, Node, or Namespace.
 
+Use [Flux](https://fluxcd.io/) to deploy Kepler the [GitOps](https://www.weave.works/technologies/gitops/) way, and then use Kepler to measure the energy consumption of Flux!
+
+## Deploy Kepler with Flux
 To deploy Kepler and Prometheus, add their manifests to a Git repository. [Here](https://github.com/nikimanoledaki/gitops-energy-usage/tree/main/clusters) is a demo repository structure for how to do that. 
 
 Flux will continuously reoncile and apply the Kepler and Prometheus manifests to your cluster. For example, by simply repeating the `flux bootstrap` command in a new cluster, Flux will sync with the repository and add Kepler and Prometheus to the new cluster.
