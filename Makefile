@@ -1,4 +1,0 @@
-up:
-	bin/start
-
-

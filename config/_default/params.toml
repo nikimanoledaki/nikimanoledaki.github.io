@@ -1,0 +1,28 @@
+colorScheme = "paper"
+defaultAppearance = "light"
+autoSwitchAppearance = false
+showAppearanceSwitcher = false
+enableSearch = true
+enableCodeCopy = true
+
+[homepage]
+  layout = "hero"
+  showRecent = true
+  recentLimit = 5
+
+[article]
+  showDate = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+
+[list]
+  showCards = false
+  groupByYear = true
+
+[taxonomy]
+  showTermCount = true
+
+[footer]
+  showAppearanceSwitcher = false
+  showThemeAttribution = false

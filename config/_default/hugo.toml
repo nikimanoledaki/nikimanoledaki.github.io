@@ -1,0 +1,7 @@
+baseURL = "https://nikimanoledaki.com/"
+languageCode = "en"
+title = "Niki Manoledaki"
+
+[module]
+  [[module.imports]]
+    path = "github.com/nunocoracao/blowfish/v2"

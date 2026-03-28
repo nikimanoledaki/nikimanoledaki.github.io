@@ -1,0 +1,33 @@
+:root {
+  --color-neutral: 250, 248, 245;       /* #faf8f5 warm off-white — THIS is the page background */
+  --color-neutral-50: 255, 253, 250;     /* #fffdfa lightest */
+  --color-neutral-100: 250, 248, 245;    /* #faf8f5 */
+  --color-neutral-200: 235, 229, 222;    /* #ebe5de */
+  --color-neutral-300: 214, 205, 195;    /* #d6cdc3 */
+  --color-neutral-400: 168, 157, 145;    /* #a89d91 */
+  --color-neutral-500: 120, 110, 100;    /* #786e64 */
+  --color-neutral-600: 90, 82, 74;       /* #5a524a */
+  --color-neutral-700: 64, 58, 52;       /* #403a34 */
+  --color-neutral-800: 45, 41, 37;       /* #2d2925 */
+  --color-neutral-900: 40, 36, 32;       /* #282420 dark text */
+  --color-primary-50: 250, 245, 245;
+  --color-primary-100: 245, 235, 235;
+  --color-primary-200: 235, 210, 210;
+  --color-primary-300: 220, 175, 175;
+  --color-primary-400: 200, 130, 130;
+  --color-primary-500: 185, 28, 28;      /* #b91c1c muted red accent */
+  --color-primary-600: 155, 23, 23;
+  --color-primary-700: 125, 18, 18;
+  --color-primary-800: 95, 14, 14;
+  --color-primary-900: 70, 10, 10;
+  --color-secondary-50: 245, 250, 245;
+  --color-secondary-100: 235, 245, 235;
+  --color-secondary-200: 210, 235, 210;
+  --color-secondary-300: 175, 220, 175;
+  --color-secondary-400: 130, 200, 130;
+  --color-secondary-500: 21, 128, 61;    /* #15803d muted green accent */
+  --color-secondary-600: 18, 108, 52;
+  --color-secondary-700: 14, 88, 42;
+  --color-secondary-800: 10, 68, 32;
+  --color-secondary-900: 7, 48, 22;
+}

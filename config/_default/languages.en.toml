@@ -1,0 +1,17 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Niki Manoledaki"
+
+[params]
+  displayName = "Niki Manoledaki"
+  isoCode = "en"
+
+[params.author]
+  name = "Niki Manoledaki"
+  headline = "Software Engineer. Cloud cost monitoring, sustainability, CNCF contributor."
+  links = [
+    { github = "https://github.com/nikimanoledaki" },
+    { linkedin = "https://linkedin.com/in/niki-manoledaki-9b505111b" },
+    { mastodon = "https://hachyderm.io/@nikimnldk" },
+  ]
