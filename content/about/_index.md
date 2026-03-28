@@ -13,8 +13,3 @@ I am a [CNCF Ambassador](https://www.cncf.io/people/ambassadors/) and Lead of th
 
 In 2023, I delivered a [keynote at KubeCon North America](https://kccncna2023.sched.com/event/1R4Tl) on environmental sustainability in cloud-native infrastructure. I have served as Track Chair for Platform Engineering at KubeCon North America 2025 and Program Chair for SustainabilityCon at Open Source Summit 2023.
 
-## Background
-
-I studied International Relations at King's College London. I speak English, French, and Greek natively, plus Catalan and Spanish.
-
-I live in Barcelona.
