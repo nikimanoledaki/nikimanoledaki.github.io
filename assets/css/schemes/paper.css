@@ -5,11 +5,11 @@
   --color-neutral-200: 235, 229, 222;    /* #ebe5de */
   --color-neutral-300: 214, 205, 195;    /* #d6cdc3 */
   --color-neutral-400: 168, 157, 145;    /* #a89d91 */
-  --color-neutral-500: 120, 110, 100;    /* #786e64 */
-  --color-neutral-600: 90, 82, 74;       /* #5a524a */
-  --color-neutral-700: 64, 58, 52;       /* #403a34 */
-  --color-neutral-800: 45, 41, 37;       /* #2d2925 */
-  --color-neutral-900: 40, 36, 32;       /* #282420 dark text */
+  --color-neutral-500: 80, 75, 70;       /* #504b46 */
+  --color-neutral-600: 50, 46, 42;       /* #322e2a */
+  --color-neutral-700: 30, 28, 25;       /* #1e1c19 */
+  --color-neutral-800: 15, 14, 12;       /* #0f0e0c */
+  --color-neutral-900: 0, 0, 0;           /* #000000 black text */
   --color-primary-50: 250, 245, 245;
   --color-primary-100: 245, 235, 235;
   --color-primary-200: 235, 210, 210;

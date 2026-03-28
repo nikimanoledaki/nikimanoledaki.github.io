@@ -1,14 +1,24 @@
 [[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 10
-
-[[main]]
-  name = "Speaking"
-  pageRef = "speaking"
+  name = "Talks"
+  pageRef = "talks"
   weight = 20
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Community"
+  pageRef = "community"
+  weight = 25
+
+[[main]]
+  name = "Media"
+  pageRef = "media"
   weight = 30
+
+[[main]]
+  name = "Podcasts"
+  pageRef = "podcasts"
+  weight = 40
+
+# [[main]]
+#   name = "Blog"
+#   pageRef = "posts"
+#   weight = 50

@@ -3,13 +3,4 @@ title: "About"
 layout: "simple"
 ---
 
-I am a Senior Software Engineer at [Grafana Labs](https://grafana.com), where I build and lead cloud cost monitoring and attribution systems at scale. My work on cost optimization and carbon monitoring spans the full stack from `Prometheus` metrics pipelines to finance-facing dashboards.
-
-Before focusing on cloud costs, I was a maintainer of [Kepler](https://github.com/sustainable-computing-io/kepler), a CNCF sandbox project for Kubernetes energy monitoring.
-
-## Community
-
-I am a [CNCF Ambassador](https://www.cncf.io/people/ambassadors/) and Lead of the CNCF TAG Operational Resilience. I serve as a [Green Software Foundation](https://greensoftware.foundation/) Champion and co-founded the CNCF Green Reviews Working Group.
-
-In 2023, I delivered a [keynote at KubeCon North America](https://kccncna2023.sched.com/event/1R4Tl) on environmental sustainability in cloud-native infrastructure. I have served as Track Chair for Platform Engineering at KubeCon North America 2025 and Program Chair for SustainabilityCon at Open Source Summit 2023.
-
+Niki Manoledaki is a Senior Software Engineer on the Grafana Labs Platform team where she operates software in multi-cloud environments at scale. She leads projects focused on monitoring, attributing, and optimising cloud costs for Kubernetes clusters and other cloud resources. In the open source ecosystem, she is a technical leader as a [CNCF Ambassador](https://www.cncf.io/people/ambassadors/), [Green Software Foundation](https://greensoftware.foundation/) Champion, and an organizer of the [Cloud Native Barcelona](https://www.meetup.com/cloud-native-barcelona/) meetup. She organizes local meetups, presents conference talks, and serves on program committees and as a track chair for conferences including KubeCon + CloudNativeCon.

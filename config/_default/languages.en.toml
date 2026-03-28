@@ -9,9 +9,5 @@ title = "Niki Manoledaki"
 
 [params.author]
   name = "Niki Manoledaki"
-  headline = "Software Engineer. Cloud cost monitoring, sustainability, CNCF contributor."
-  links = [
-    { github = "https://github.com/nikimanoledaki" },
-    { linkedin = "https://linkedin.com/in/niki-manoledaki-9b505111b" },
-    { mastodon = "https://hachyderm.io/@nikimnldk" },
-  ]
+  headline = "Cloud Costs & Carbon, Platform Engineering, Kubernetes, OSS"
+  links = []

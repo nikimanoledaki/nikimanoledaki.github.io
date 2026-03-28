@@ -2,13 +2,12 @@ colorScheme = "paper"
 defaultAppearance = "light"
 autoSwitchAppearance = false
 showAppearanceSwitcher = false
-enableSearch = true
+enableSearch = false
 enableCodeCopy = true
 
 [homepage]
   layout = "hero"
-  showRecent = true
-  recentLimit = 5
+  showRecent = false
 
 [article]
   showDate = true
