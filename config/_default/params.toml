@@ -11,13 +11,16 @@ enableCodeCopy = true
 
 [article]
   showDate = true
-  showReadingTime = true
-  showTableOfContents = true
-  showTaxonomies = true
+  showReadingTime = false
+  showWordCount = false
+  showTableOfContents = false
+  showTaxonomies = false
+  showAuthor = false
 
 [list]
   showCards = false
-  groupByYear = true
+  groupByYear = false
+  showSummary = true
 
 [taxonomy]
   showTermCount = true

@@ -6,6 +6,8 @@ title = "Niki Manoledaki"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    noClasses = false
 
 [module]
   [[module.imports]]

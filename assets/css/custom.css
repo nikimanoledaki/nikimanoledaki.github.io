@@ -1,0 +1,14 @@
+html:not(.dark) .chroma,
+html:not(.dark) .chroma pre,
+html:not(.dark) .chroma code,
+html:not(.dark) .highlight pre,
+html:not(.dark) .highlight code {
+  color: #24292e !important;
+  background-color: #f6f8fa !important;
+}
+
+html:not(.dark) .bg {
+  color: #24292e !important;
+  background-color: #f6f8fa !important;
+}
+
