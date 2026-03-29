@@ -3,6 +3,7 @@ title: "Media"
 layout: "simple"
 ---
 
+- [**2026 Observability Trends and Predictions from Grafana Labs**](https://grafana.com/blog/2026-observability-trends-predictions-from-grafana-labs-unified-intelligent-and-open/) — Grafana Labs (2026)
 - [**Cloud Native Sustainability Month 2025**](https://www.cncf.io/blog/2025/10/24/cloud-native-sustainability-month-2025-a-global-community-movement-for-greener-tech/) — CNCF (2025)
 - [**Data Storytelling at HackUPC 2025**](https://grafana.com/blog/data-storytelling-at-hackupc-2025-celebrating-3-student-hackathon-projects-powered-by-grafana/) — Grafana Labs (2025)
 - [**CNCF Environmental Sustainability TAG**](https://redmonk.com/videos/a-redmonk-conversation-cncfs-environmental-sustainability-tag/) — RedMonk (2024)
