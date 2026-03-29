@@ -3,6 +3,8 @@ title: "Community"
 layout: "simple"
 ---
 
+## Roles
+
 - [CNCF Ambassador](https://www.cncf.io/people/ambassadors/) (2024-present)
 - [Green Software Foundation Champion](https://champions.greensoftware.foundation/champions/niki-manoledaki/) (2025-present)
 - [Cloud Native Barcelona](https://www.meetup.com/cloud-native-barcelona/) Organizer (2023-present)
