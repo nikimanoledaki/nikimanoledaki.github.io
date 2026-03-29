@@ -9,6 +9,7 @@ layout: "simple"
 - [**CNCF Environmental Sustainability TAG**](https://redmonk.com/videos/a-redmonk-conversation-cncfs-environmental-sustainability-tag/) — RedMonk (2024)
 - [**Seeking Sustainable Cloud Native**](https://redmonk.com/rstephens/2024/01/31/kepler/) — RedMonk (2024)
 - [**Green Reviews Working Group**](https://www.cncf.io/blog/2024/03/19/green-reviews-working-group-moving-towards-measuring-the-sustainability-footprint-of-cncf-projects/) — CNCF (2024)
+- [**Kubernetes, Kepler, and Carbon Footprints**](https://grafana.com/blog/2024/12/06/kubernetes-kepler-and-carbon-footprints-the-latest-tools-and-strategies-to-optimize-observability/) — Grafana Labs (2024)
 - [**Going Green: How to Monitor Your Cloud Carbon Footprint Using Kepler, Prometheus, and Grafana**](https://grafana.com/blog/going-green-how-to-monitor-your-cloud-carbon-footprint-using-kepler-prometheus-and-grafana/) — Grafana Labs (2023)
 - [**KubeCon 2023: Managing Pets, Cattle... and Starfish?**](https://thenewstack.io/kubecon-2023-managing-pets-cattle-and-starfish/) — The New Stack (2023)
 - [**AWS Goes Deep on AI, Chip Power... and Cost Savings**](https://thenewstack.io/aws-goes-deep-on-ai-chip-power-and-cost-savings/) — The New Stack (2023)
