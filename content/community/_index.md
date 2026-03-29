@@ -4,7 +4,7 @@ layout: "simple"
 ---
 
 - [CNCF Ambassador](https://www.cncf.io/people/ambassadors/) (2024-present)
-- [Green Software Foundation](https://greensoftware.foundation/) Champion (2025-present)
+- [Green Software Foundation Champion](https://champions.greensoftware.foundation/champions/niki-manoledaki/) (2025-present)
 - [Cloud Native Barcelona](https://www.meetup.com/cloud-native-barcelona/) Organizer (2023-present)
 - [CNCF Environmental Sustainability Technical Advisory Group](https://tag-env-sustainability.cncf.io/) lead (2022-2025)
 - [Kepler](https://github.com/sustainable-computing-io/kepler) Maintainer (2023-2025)
