@@ -9,3 +9,4 @@ layout: "simple"
 - [**Seeking Sustainable Cloud Native**](https://redmonk.com/rstephens/2024/01/31/kepler/) — RedMonk (2024)
 - [**Green Reviews Working Group**](https://www.cncf.io/blog/2024/03/19/green-reviews-working-group-moving-towards-measuring-the-sustainability-footprint-of-cncf-projects/) — CNCF (2024)
 - [**Going Green: How to Monitor Your Cloud Carbon Footprint Using Kepler, Prometheus, and Grafana**](https://grafana.com/blog/going-green-how-to-monitor-your-cloud-carbon-footprint-using-kepler-prometheus-and-grafana/) — Grafana Labs (2023)
+- [**Environmental Sustainability at KubeCon + CloudNativeCon Europe 2023**](https://www.cncf.io/blog/2023/06/08/environmental-sustainability-at-kubecon-cloudnativecon-europe-2023/) — CNCF (2023)
