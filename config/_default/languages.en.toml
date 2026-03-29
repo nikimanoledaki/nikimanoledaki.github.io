@@ -9,5 +9,6 @@ title = "Niki Manoledaki"
 
 [params.author]
   name = "Niki Manoledaki"
+  image = "img/author.jpeg"
   headline = "Cloud Costs & Carbon, Platform Engineering, Kubernetes, OSS"
   links = []

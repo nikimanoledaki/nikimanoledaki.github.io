@@ -54,10 +54,27 @@
     font-size: 1rem;
   }
 
-  /* Align left */
+  /* Align left, justify prose body */
   .hero-content, .hero, [class*="hero"],
-  .prose, .prose p, article, .content {
+  article, .content {
     text-align: left !important;
+  }
+  .prose, .prose p {
+    text-align: justify !important;
+  }
+
+  /* Reduce gap between header and hero */
+  main > article:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  main {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  #main-content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
   }
 
   /* Force black text everywhere */

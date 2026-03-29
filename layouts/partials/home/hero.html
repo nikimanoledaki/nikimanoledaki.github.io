@@ -1,6 +1,6 @@
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
 {{ $disableHeroImageFilter := .Site.Params.homepage.disableHeroImageFilter | default false }}
-<article class="max-w-full prose dark:prose-invert">
+<article class="max-w-full prose dark:prose-invert" style="margin-top: 0; padding-top: 0;">
   <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
     <div class="mx-auto max-w-7xl p-0">
@@ -44,7 +44,7 @@
           {{ end }}
         </div>
         <div
-          class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex flex-col items-center justify-center text-center">
+          class="relative px-4 pt-0 pb-8 sm:px-6 sm:pt-0 sm:pb-12 lg:pt-0 lg:pb-16 lg:px-8 flex flex-col items-center justify-center text-center">
           {{ with .Site.Params.Author.image }}
             {{ $authorImage := "" }}
             {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
@@ -105,6 +105,12 @@
     </div>
   </div>
 </article>
+{{ $keynoteImage := resources.Get "img/keynote.jpeg" }}
+{{ if $keynoteImage }}
+<div class="mx-auto mt-8" style="max-width: 48rem; width: 100%;">
+  <img class="w-full nozoom" style="margin: 0; padding: 0;" src="{{ $keynoteImage.RelPermalink }}" alt="Keynote at KubeCon + CloudNativeCon">
+</div>
+{{ end }}
 <section>
   {{ partial "recent-articles/main.html" . }}
 </section>
