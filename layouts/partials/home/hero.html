@@ -107,8 +107,8 @@
 </article>
 {{ $keynoteImage := resources.Get "img/keynote.jpeg" }}
 {{ if $keynoteImage }}
-<div class="mx-auto mt-8" style="max-width: 48rem; width: 100%;">
-  <img class="w-full nozoom" style="margin: 0; padding: 0;" src="{{ $keynoteImage.RelPermalink }}" alt="Keynote at KubeCon + CloudNativeCon">
+<div class="mx-auto mt-8 overflow-hidden sm:max-h-none" style="max-width: 48rem; width: 100%; max-height: 16rem;">
+  <img class="w-full nozoom object-cover object-top" style="margin: 0; padding: 0;" src="{{ $keynoteImage.RelPermalink }}" alt="Keynote at KubeCon + CloudNativeCon">
 </div>
 {{ end }}
 <section>

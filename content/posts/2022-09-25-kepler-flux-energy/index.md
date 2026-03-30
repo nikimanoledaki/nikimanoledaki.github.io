@@ -1,7 +1,6 @@
 ---
-title: "Measure the Energy Consumption of Flux with Prometheus and Kepler"
+title: Measure the Energy Consumption of Flux with Prometheus and Kepler
 date: 2022-09-25
-tags: ["kubernetes", "kepler", "prometheus", "sustainability", "flux"]
 ---
 
 [Kepler](https://github.com/sustainable-computing-io/kepler) can be used with [Prometheus](https://prometheus.io/) to measure the energy consumption of any Kubernetes Pod, Node, or Namespace. Use [Flux](https://fluxcd.io/) to deploy Kepler the [GitOps](https://www.weave.works/technologies/gitops/) way, and then use Kepler to measure the energy consumption of Flux!
