@@ -5,6 +5,7 @@ layout: "simple"
 
 ## 2025
 
+- **Green Code: Cloud Sustainability At Scale** — Universitat Politècnica de Catalunya
 - **Mind the Gap: Lessons From Tracking Cloud Costs At Scale** — DevOpsDays Barcelona
 - **A Manual For Scaling Environmental Sustainability In The Cloud** — Cloud Native Sustainability Month, Barcelona
 
