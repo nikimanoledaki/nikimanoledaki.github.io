@@ -18,6 +18,7 @@ layout: "simple"
 
 - [**Cloud Sustainability at Scale: Why Open Source Will Define the Next Era of Green Computing**](https://cloudnativenow.com/contributed-content/cloud-sustainability-at-scale-why-open-source-will-define-the-next-era-of-green-computing/) — Cloud Native Now (2026)
 - [**Is Kubernetes Optimization the Key to a Greener Cloud?**](https://vmblog.com/bylines/is-kubernetes-optimization-the-key-to-a-greener-cloud/) — VMblog (2025)
+- **Technical Contributor, "Chapter 4: Operational Efficiency"** — [Building Green Software](https://www.oreilly.com/library/view/building-green-software/9781098150617/), O'Reilly (2024)
 - [**Green Reviews Working Group: Moving towards measuring the sustainability footprint of CNCF projects**](https://www.cncf.io/blog/2024/03/19/green-reviews-working-group-moving-towards-measuring-the-sustainability-footprint-of-cncf-projects/) — CNCF (2024)
 - [**Going Green: How to Monitor Your Cloud Carbon Footprint Using Kepler, Prometheus, and Grafana**](https://grafana.com/blog/going-green-how-to-monitor-your-cloud-carbon-footprint-using-kepler-prometheus-and-grafana/) — Grafana Labs (2023)
 - [**Environmental Sustainability at KubeCon + CloudNativeCon Europe 2023**](https://www.cncf.io/blog/2023/06/08/environmental-sustainability-at-kubecon-cloudnativecon-europe-2023/) — CNCF (2023)
